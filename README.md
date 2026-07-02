@@ -1,15 +1,15 @@
-# Project Springboot Event Drive Architeture 
+D   # Project Springboot Event Drive Architecture  
 
-Objective of this project to represents a Sample project, that you can use just like a skelleton to guide in the next projects. 
+Objective of this project to represents a Sample project, that you can use just like a skeleton to guide in the next projects. 
 
-#### This project envolving the simple concepts such as : 
+#### This project include the simple concepts such as : 
 
 - Producer 
 - Consumer
 - Serializer/Deserializer 
 - Validaton Avro
 
-#### You can find dependencys: 
+#### What you can find in this project : 
 
 - Spring Kafka
 - H2
@@ -25,8 +25,16 @@ Objective of this project to represents a Sample project, that you can use just 
 
 #### Description Scope Project 
 
-Em construction - Sample API with properties configuration envolving KAFKA to create messages to consume and produces using a topic. 
+Em construction - Sample API with properties configuration to include KAFKA to create messages to consume and produces using a topic. 
 
-### Configurate Docker 
+### How to setup Docker for Kafka Local Machine 
+````
+Starts for command : docker ps 
+After that initiate the command to read the file (docker-compose.yml) that content the commands to up the Kafka Cluster : docker-compose up
+Validate to up : docker logs -f kafka1
+To stopping the process : Ctrl + C
 
+
+Page to refer - Troubleshooting :  https://github.com/dilipsundarraj1/kafka-for-developers-using-spring-boot-v2/blob/main/README-kafka.md
+```
 

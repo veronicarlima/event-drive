@@ -27,14 +27,18 @@ Objective of this project to represents a Sample project, that you can use just 
 
 Em construction - Sample API with properties configuration to include KAFKA to create messages to consume and produces using a topic. 
 
-### How to setup Docker for Kafka Local Machine 
+### How to Set up Docker for Kafka Local Machine 
+
 ````
 Starts for command : docker ps 
 After that initiate the command to read the file (docker-compose.yml) that content the commands to up the Kafka Cluster : docker-compose up
 Validate to up : docker logs -f kafka1
 To stopping the process : Ctrl + C
 
+````
 
-Page to refer - Troubleshooting :  https://github.com/dilipsundarraj1/kafka-for-developers-using-spring-boot-v2/blob/main/README-kafka.md
-```
 
+[^1]: 
+#### References
+[Quick Guide to Patterns of Markdown](https://md-tool.com/pt/markdown-guide/cheat-sheet)
+[Page to refer - Troubleshooting Docker problems](https://github.com/dilipsundarraj1/kafka-for-developers-using-spring-boot-v2/blob/main/README-kafka.md)
